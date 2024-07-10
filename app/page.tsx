@@ -12,7 +12,7 @@ export default function Home() {
        <Hero/>
        {/* <Slick/> */}
        <Logopage/>
-       <Portfolio/>
+       {/* <Portfolio/> */}
     </div>
   );
 }

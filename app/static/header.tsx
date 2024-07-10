@@ -12,7 +12,7 @@ const Header = () => {
             <div className="w-[70%] h-full flex  justify-between items-center border-b-2">
                 <div className="flex w-[600px] h-full  items-center gap-7">
                     <Image src={logo} alt="logo" width={100} height={100} />
-                    <div className="flex gap-7 justify-center items-center">
+                    <div className=" hidden lg:flex gap-7 justify-center items-center">
                       <Link href="/" className="text-slate-400">Products</Link>
                       <Link href="/" className="text-slate-400">Customers</Link>
                       <Link href="/" className="text-slate-400">Company</Link>
