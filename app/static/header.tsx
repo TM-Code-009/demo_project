@@ -8,7 +8,7 @@ import logowhite from "../../public/dumowhite.svg"
 const Header = () => {
     return(
        <div className="w-full h-[100px] flex justify-center items-center">
-           <div className="w-[300px] md:w-full h-[100px] flex justify-center items-center fixed bg-white">
+           <div className="w-[500px] md:w-full h-[100px] flex justify-center items-center fixed bg-white">
             <div className="w-[70%] h-full flex  justify-between items-center border-b-2">
                 <div className="flex w-[600px] h-full  items-center gap-7">
                     <Image src={logo} alt="logo" width={100} height={100} />

@@ -25,7 +25,7 @@ const Logopage = () => {
             </div>
 
             </div>
-            <div className="text-[15px] text-left md:text-[30px] font-bold w-[800px]">
+            <div className="text-[15px] text-left  font-bold w-[400px]">
             <span className="text-slate-400">Connect the tools that matters to your business</span><br/>
             — Payments, Sales, Operations, Marketing, Customer <br/>
               Engagement e.t.c with solid <span className="underline">data protection.</span>
