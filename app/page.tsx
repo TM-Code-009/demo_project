@@ -5,7 +5,7 @@ import Logopage from "./component/logopage";
 import Portfolio from "./component/portfolio";
 // import Slick from "./component/slick";
 
-export default function Home() {
+ const page=() => {
   return (
     <div className="flex justify-center items-center flex-col">
        <Header/>;
@@ -16,3 +16,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+export default page
