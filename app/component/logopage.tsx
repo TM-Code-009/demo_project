@@ -15,7 +15,7 @@ const Logopage = () => {
          
             <div className="flex flex-col">
             <div className="text-[16px] text-slate-400">Trusted by:</div>
-            <div className="flex justify-center items-center gap-7 mt-0">
+            <div className="flex flex-col justify-center items-center gap-4 md:flex-row gap-7 mt-0">
             <Image src={logo1} alt="" width={150} height={70}/>
             <Image src={logo2} alt="" width={150} height={70}/>
             <Image src={logo3} alt="" width={150} height={70}/>
@@ -25,9 +25,9 @@ const Logopage = () => {
             </div>
 
             </div>
-            <div className="text-[30px] font-bold w-[700px]">
-            <span className="text-slate-400">Connect the tools that matters to your business</span>
-            — Payments, Sales, Operations, Marketing, Customer 
+            <div className="text-[15px] text-left md:text-[30px] font-bold w-[800px]">
+            <span className="text-slate-400">Connect the tools that matters to your business</span><br/>
+            — Payments, Sales, Operations, Marketing, Customer <br/>
               Engagement e.t.c with solid <span className="underline">data protection.</span>
             </div>
          </div>

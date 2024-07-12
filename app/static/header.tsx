@@ -7,7 +7,7 @@ import logowhite from "../../public/dumowhite.svg"
 
 const Header = () => {
     return(
-       <div className="w-full h-[100px] flex justify-center items-center ">
+       <div className="w-full h-[100px] flex justify-center items-center">
            <div className="w-full h-[100px] flex justify-center items-center fixed bg-white">
             <div className="w-[70%] h-full flex  justify-between items-center border-b-2">
                 <div className="flex w-[600px] h-full  items-center gap-7">
@@ -19,11 +19,11 @@ const Header = () => {
                       <Link href="/" className="text-slate-400">Pricing</Link>
                     </div>
                 </div>
-                <div className="flex justify-between items-center  w-[200px] h-full">
-                   <div className="w-[40px] h-[40px] text-blue-600 bg-gray-400 flex text-[20px] rounded-lg justify-center items-center">
+                <div className="flex relative justify-between items-center  w-[200px] h-full">
+                   <div className="absolute right-0 w-[40px] h-[40px] text-blue-600 bg-gray-400 flex text-[20px] rounded-lg justify-center items-center">
                    <MdCall/>
                    </div>
-                    <div className="w-[150px] h-[40px] flex justify-center text-white font-semibold items-center bg-blue-600 rounded-lg border-none">My  <Image src={logowhite} alt="logo" width={50} height={50}/> Cloud</div>
+                    <div className="hidden md:w-[150px] h-[40px] flex justify-center text-white font-semibold items-center bg-blue-600 rounded-lg border-none">My  <Image src={logowhite} alt="logo" width={50} height={50}/> Cloud</div>
                 </div>
             </div>
         </div>
